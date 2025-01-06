@@ -1,0 +1,67 @@
+﻿@model IEnumerable<E_mailSystem.Models.Plan>
+
+@{
+    ViewData["Title"] = "Index";
+}
+@if (User.Identity.IsAuthenticated && User.Identity.Name == "admin123@gmail.com")
+{
+    <h1>Index</h1>
+
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.PlanName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Watermark)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Attachments)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Messages)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Symbols)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PlanName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Watermark)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Attachments)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Messages)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Symbols)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <h2 style="color:red">Вы не авторизованы!</h2>
+    <a class="nav-link text-dark btn btn-outline-primary" asp-area="Identity" asp-page="/Account/Login">Личный кабинет</a>
+}
