@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BsCp2AQJ1FIl/Kr9MJ1M0j9qk084jkNKiuqaToK0njjQBWhndapFDUVhNWwV/icKGN27iSwotX77tuHJt40kvw==",
+  "dgSpecHash": "Tm0o2wR0cXlPUqUg2PsGpt/C09uPyimsXB1htA1VgJzCwb8/w5h+hIqp9UKgVdTOrVHHQu1fN++V+Yq0oLzwqQ==",
   "success": true,
-  "projectFilePath": "D:\\new\\github\\Asp.NET finalproj\\E-mailSystem\\E-mailSystem\\E-mailSystem.csproj",
+  "projectFilePath": "D:\\new\\github\\Asp.NET finalproj\\Anonymous-Email-Service\\E-mailSystem\\E-mailSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ZerAtul\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ZerAtul\\.nuget\\packages\\mailkit\\2.15.0\\mailkit.2.15.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\new\\github\\Asp.NET finalproj\\E-mailSystem\\E-mailSystem\\E-mailSystem.csproj": {}
+    "D:\\new\\github\\Asp.NET finalproj\\Anonymous-Email-Service\\E-mailSystem\\E-mailSystem.csproj": {}
   },
   "projects": {
-    "D:\\new\\github\\Asp.NET finalproj\\E-mailSystem\\E-mailSystem\\E-mailSystem.csproj": {
+    "D:\\new\\github\\Asp.NET finalproj\\Anonymous-Email-Service\\E-mailSystem\\E-mailSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\new\\github\\Asp.NET finalproj\\E-mailSystem\\E-mailSystem\\E-mailSystem.csproj",
+        "projectUniqueName": "D:\\new\\github\\Asp.NET finalproj\\Anonymous-Email-Service\\E-mailSystem\\E-mailSystem.csproj",
         "projectName": "E-mailSystem",
-        "projectPath": "D:\\new\\github\\Asp.NET finalproj\\E-mailSystem\\E-mailSystem\\E-mailSystem.csproj",
+        "projectPath": "D:\\new\\github\\Asp.NET finalproj\\Anonymous-Email-Service\\E-mailSystem\\E-mailSystem.csproj",
         "packagesPath": "C:\\Users\\ZerAtul\\.nuget\\packages\\",
-        "outputPath": "D:\\new\\github\\Asp.NET finalproj\\E-mailSystem\\E-mailSystem\\obj\\",
+        "outputPath": "D:\\new\\github\\Asp.NET finalproj\\Anonymous-Email-Service\\E-mailSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
