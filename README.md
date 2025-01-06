@@ -2,13 +2,13 @@
 # Info
 MVC pet-project based on ASP.Net for anonimous mailing.
 
-# What i'm using in this project?
- ASP.Net
- MVC Pattern
- MailKit
- EntityFramework
- Microsoft.AspNet.Identity
- MSSQL DB
+# What i'm using in this project?<br>
+ ASP.Net<br>
+ MVC Pattern<br>
+ MailKit<br>
+ EntityFramework<br>
+ Microsoft.AspNet.Identity<br>
+ MSSQL DB<br>
 
 
 
